@@ -1,0 +1,74 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E266" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="news.models.News.objects" />
+          <option value="news.tests.test_routes.TestRoutes.author" />
+          <option value="news.tests.test_routes.TestRoutes.news" />
+          <option value="news.models.Comment.objects" />
+          <option value="news.tests.test_content.TestDetailPage.news" />
+          <option value="news.tests.test_content.TestDetailPage.author" />
+          <option value="news.tests.test_logic.TestCommentCreation.news" />
+          <option value="news.tests.test_logic.TestCommentCreation.auth_client" />
+          <option value="news.tests.test_logic.TestCommentCreation.user" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.news" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.author_client" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.reader_client" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.reader" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.author" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.comment" />
+          <option value="notes.models.Note.objects" />
+          <option value="notes.tests.test_routes.TestRoutes.author" />
+          <option value="notes.tests.test_content.TestContent.author" />
+          <option value="notes.tests.test_logic.TestNoteCreation.author" />
+          <option value="notes.tests.test_logic.TestNoteCreation.author_client" />
+          <option value="cats.models.Cat.*" />
+          <option value="cats.models.Achievement.objects" />
+          <option value="cats.models.AchievementCat.objects" />
+          <option value="yatube_api.posts.models.Post.objects" />
+          <option value="yatube_api.posts.models.Group.objects" />
+          <option value="yatube_api.posts.models.Comment.objects" />
+          <option value="app_setofshots.models.Event.objects" />
+          <option value="app_setofshots.models.Dish.objects" />
+          <option value="app_setofshots.models.Bar.*" />
+          <option value="app_setofshots.models.Post.*" />
+          <option value="app_setofshots.models.Category.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
